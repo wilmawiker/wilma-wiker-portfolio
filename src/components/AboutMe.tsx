@@ -14,6 +14,15 @@ function AboutMe() {
           earum nemo repellat, dolores adipisci laboriosam itaque ipsam officiis
           cumque sunt!
         </p>
+        <div className="tags-container">
+          <p className="tag">HTML</p>
+          <p className="tag">CSS/SCSS</p>
+          <p className="tag">JavaScript/TypeScript</p>
+          <p className="tag">ReactJS</p>
+          <p className="tag">Vue.js</p>
+          <p className="tag">NodeJS</p>
+          <p className="tag">GraphQL</p>
+        </div>
       </div>
       <div className="profile-img-container">
         <img src="https://dl.dropboxusercontent.com/s/egocgwnyni1tslz/20230123153739_IMG_0292.JPG?dl=0" />
