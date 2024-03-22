@@ -217,77 +217,85 @@ body {
       }
     }
   }
-  .contact-container {
+  .contact-me-content {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 4em;
-
-    .heading-text {
-      font-size: 25px;
-      font-weight: 500;
-      text-transform: uppercase;
-    }
-
-    .link-container {
+    justify-content: center;
+    align-items: center;
+    .contact-container {
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
-      align-items: center;
-      .contact-links {
+      margin: 4em;
+      background-color: #ffc0cb;
+      width: 50%;
+      padding: 2em;
+      border-radius: 8px;
+
+      .heading-text {
+        font-size: 25px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      .link-container {
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
-        gap: 1em;
-        width: 50%;
+        align-items: center;
+        .contact-links {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          gap: 1em;
+          width: 50%;
 
-        p {
-          margin: 0;
-        }
+          p {
+            margin: 0;
+          }
 
-        .resume-link {
-          font-size: 1em;
-          border: 1px solid black;
-          padding: 0.5em;
-          box-shadow: 3px 3px black;
-          text-decoration: none;
-          color: black;
-          width: fit-content;
+          .resume-link {
+            font-size: 1em;
+            border: 1px solid black;
+            padding: 0.5em;
+            box-shadow: 3px 3px black;
+            text-decoration: none;
+            color: black;
+            width: fit-content;
 
-          &:hover {
-            border: 1px solid pink;
-            box-shadow: 3px 3px pink;
-            color: pink;
+            &:hover {
+              box-shadow: 3px 3px #c77b89;
+              color: #c77b89;
+            }
+          }
+
+          .link {
+            color: #000000;
+            text-decoration: none;
+            display: flex;
+            gap: 1em;
+            font-size: 1.5em;
+
+            &:hover {
+              color: #c77b89;
+            }
           }
         }
 
-        .link {
-          color: #000000;
-          text-decoration: none;
+        .social-media-links {
+          width: 50%;
           display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: baseline;
           gap: 1em;
           font-size: 1.5em;
 
-          &:hover {
-            color: pink;
-          }
-        }
-      }
+          a {
+            text-decoration: none;
+            color: black;
 
-      .social-media-links {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: baseline;
-        gap: 1em;
-        font-size: 1.5em;
-
-        a {
-          text-decoration: none;
-          color: black;
-
-          &:hover {
-            color: pink;
+            &:hover {
+              color: #c77b89;
+            }
           }
         }
       }
